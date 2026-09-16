@@ -5,15 +5,37 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-000000?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/aiogram-3.x-000000?style=for-the-badge&logo=telegram&logoColor=white" />
-  <img src="https://img.shields.io/badge/FFmpeg-000000?style=for-the-badge&logo=ffmpeg&logoColor=white" />
-  <img src="https://img.shields.io/badge/SoX-000000?style=for-the-badge&logoColor=white" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Python-3.10+-FFFFFF?style=for-the-badge&logo=python&logoColor=black" />
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Python-3.10+-000000?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/Python-3.10+-FFFFFF?style=for-the-badge&logo=python&logoColor=black" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/aiogram-3.x-FFFFFF?style=for-the-badge&logo=telegram&logoColor=black" />
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/aiogram-3.x-000000?style=for-the-badge&logo=telegram&logoColor=white" />
+    <img src="https://img.shields.io/badge/aiogram-3.x-FFFFFF?style=for-the-badge&logo=telegram&logoColor=black" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/FFmpeg-FFFFFF?style=for-the-badge&logo=ffmpeg&logoColor=black" />
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/FFmpeg-000000?style=for-the-badge&logo=ffmpeg&logoColor=white" />
+    <img src="https://img.shields.io/badge/FFmpeg-FFFFFF?style=for-the-badge&logo=ffmpeg&logoColor=black" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/SoX-FFFFFF?style=for-the-badge&logoColor=black" />
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/SoX-000000?style=for-the-badge&logoColor=white" />
+    <img src="https://img.shields.io/badge/SoX-FFFFFF?style=for-the-badge&logoColor=black" />
+  </picture>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,100:FFFFFF&height=120&section=header" width="100%" />
 
-<img src="./assets/divider.svg" width="100%" height="2" />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg" />
+    <img src="./assets/divider-dark.svg" width="100%" height="2" />
+  </picture>
+</p>
 
 ## Overview
 
@@ -21,7 +43,13 @@ An exploration of **voice spectrograms** as a tool for vocal characterization, i
 
 Built for **SOLO Vocal Work** (Tomsk, Russia) — a real vocal school.
 
-<img src="./assets/divider.svg" width="100%" height="2" />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg" />
+    <img src="./assets/divider-dark.svg" width="100%" height="2" />
+  </picture>
+</p>
 
 ## Visual Output
 
@@ -43,7 +71,13 @@ Built for **SOLO Vocal Work** (Tomsk, Russia) — a real vocal school.
   <img src="./assets/rms.png" width="80%" alt="RMS" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" height="2" />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg" />
+    <img src="./assets/divider-dark.svg" width="100%" height="2" />
+  </picture>
+</p>
 
 ## Research Motivation
 
@@ -57,7 +91,13 @@ Traditional vocal coaching relies on subjective listening. But every voice has a
 
 The goal was to translate acoustic data into actionable, human-readable feedback.
 
-<img src="./assets/divider.svg" width="100%" height="2" />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg" />
+    <img src="./assets/divider-dark.svg" width="100%" height="2" />
+  </picture>
+</p>
 
 ## Methodology
 
@@ -95,7 +135,7 @@ Duration	Category
 6–10 s	Warm & rich
 11–15 s	Low & deep
 15+ s	Strong & confident
-<img src="./assets/divider.svg" width="100%" height="2" />
+<p align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg" /> <img src="./assets/divider-dark.svg" width="100%" height="2" /> </picture> </p>
 Results
 Silence detection accuracy: ~95%
 
@@ -103,7 +143,7 @@ Average processing time: 1.8 s
 
 Users who completed voice test were 3× more likely to book a lesson
 
-<img src="./assets/divider.svg" width="100%" height="2" />
+<p align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg" /> <img src="./assets/divider-dark.svg" width="100%" height="2" /> </picture> </p>
 Tech Stack
 python
 FFmpeg        # Decode, resample, volume analysis
@@ -111,7 +151,7 @@ SoX           # Spectrogram generation
 aiogram 3.x   # Async Telegram Bot
 asyncio       # Concurrent processing
 python-dotenv # Environment variables
-<img src="./assets/divider.svg" width="100%" height="2" />
+<p align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg" /> <img src="./assets/divider-dark.svg" width="100%" height="2" /> </picture> </p>
 🚀 Getting Started
 Prerequisites
 Python 3.10+
@@ -149,14 +189,14 @@ Problem	Solution
 ffmpeg: command not found	Install FFmpeg and add it to PATH
 sox: command not found	Install SoX and add it to PATH
 No spectrogram created	Check that the WAV file exists
-<img src="./assets/divider.svg" width="100%" height="2" />
+<p align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg" /> <img src="./assets/divider-dark.svg" width="100%" height="2" /> </picture> </p>
 Future Work
 Direction	Description
 F0 Extraction	Use Praat/Librosa for true fundamental frequency
 Formant Analysis	Map F1/F2 to vowel quality
 ML Classification	Train a CNN on spectrograms
 Pitch Tracking	Detect vibrato and stability
-<img src="./assets/divider.svg" width="100%" height="2" />
+<p align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg" /> <img src="./assets/divider-dark.svg" width="100%" height="2" /> </picture> </p>
 References
 Praat — phonetic analysis
 
@@ -166,9 +206,9 @@ SoX Documentation
 
 FFmpeg Filters
 
-<img src="./assets/divider.svg" width="100%" height="2" />
+<p align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg" /> <img src="./assets/divider-dark.svg" width="100%" height="2" /> </picture> </p>
 Author
 Lukas Misyunas
 Portfolio Project — Built for SOLO Vocal Work (Tomsk, Russia)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,100:FFFFFF&height=120&section=footer" width="100%"
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,100:FFFFFF&height=120&section=footer" width="100%" /> ```
