@@ -11,8 +11,6 @@
   <img src="https://img.shields.io/badge/SoX-FFFFFF?style=for-the-badge&logoColor=black" />
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,100:FFFFFF&height=120&section=header" width="100%" />
-
 <img src="./assets/divider.svg" width="100%" height="2" />
 
 ## Overview
@@ -187,5 +185,3 @@ Lukas Misyunas
 Portfolio Project — Built for SOLO Vocal Work (Tomsk, Russia)
 Stack: Python · aiogram · FFmpeg · SoX
 Focus: Audio processing · UX design · Telegram bots
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,100:FFFFFF&height=120&section=footer" width="100%" /> ```
